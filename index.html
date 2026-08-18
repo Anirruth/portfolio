@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Anirruth Santhosh — Blockchain Security Researcher</title>
+<meta name="description" content="Portfolio and résumé of Anirruth Santhosh, blockchain developer and security researcher.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+  <svg id="toggleIcon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round">
+    <circle cx="12" cy="12" r="4.2"/>
+    <path d="M12 2.5v2.2 M12 19.3v2.2 M4.2 4.2l1.6 1.6 M18.2 18.2l1.6 1.6 M2.5 12h2.2 M19.3 12h2.2 M4.2 19.8l1.6-1.6 M18.2 5.8l1.6-1.6"/>
+  </svg>
+</button>
+
+<nav class="sidenav" id="sidenav">
+  <div class="sidenav-inner">
+    <a href="#top" class="mark">AS</a>
+    <ul>
+      <li><a href="#about" class="navlink">About</a></li>
+      <li><a href="#experience" class="navlink">Experience</a></li>
+      <li><a href="#work" class="navlink">Projects</a></li>
+      <li><a href="#skills" class="navlink">Skills</a></li>
+      <li><a href="#contact" class="navlink">Contact</a></li>
+    </ul>
+    <a href="#contact" class="sidenav-cta">Say hello →</a>
+  </div>
+</nav>
+
+<main>
+
+  <section class="hero" id="top">
+    <p class="eyebrow">Portfolio / Résumé — 2026</p>
+    <h1>Anirruth Santhosh</h1>
+    <p class="role">Blockchain developer &amp; security researcher.</p>
+    <p class="hero-sub">I build on-chain systems and break them before
+      attackers do — shipping Solidity and Rust across EVM and Solana,
+      and auditing DeFi protocols through Immunefi and Code4rena.
+      Currently a Junior Blockchain Developer at Block Stack.</p>
+    <div class="hero-links">
+      <a href="#work" class="btn-primary">View projects</a>
+      <a href="#contact" class="btn-ghost">Get in touch</a>
+    </div>
+  </section>
+
+  <section class="block" id="about">
+    <div class="block-head">
+      <span class="block-label">About</span>
+    </div>
+    <div class="block-body">
+      <p>I'm a blockchain developer and security researcher studying
+        Computer Science &amp; Engineering (Blockchain Technology) at SRM
+        University. My work splits between building — smart contracts,
+        cross-chain infrastructure, full-stack DeFi tooling — and
+        breaking, through bug bounty programs and formal audits.</p>
+      <p>I've reported vulnerabilities in smart contracts via Immunefi
+        and Code4rena, completed the Cyfrin Updraft Smart Contract
+        Security Program, and audited multiple Solidity codebases for
+        production-grade security issues.</p>
+    </div>
+  </section>
+
+  <section class="block" id="experience">
+    <div class="block-head">
+      <span class="block-label">Experience</span>
+    </div>
+    <div class="timeline">
+
+      <article class="timeline-item">
+        <div class="timeline-year">2026<span class="year-suffix">— Present</span></div>
+        <div class="timeline-content">
+          <h3>Junior Blockchain Developer</h3>
+          <p class="timeline-org">Block Stack</p>
+          <p>Implemented listener services to monitor and process
+            on-chain events in real time. Built token swapping
+            functionality integrating Uniswap on EVM and Raydium on
+            Solana.</p>
+        </div>
+      </article>
+
+      <article class="timeline-item">
+        <div class="timeline-year">2025<span class="year-suffix">Aug — Nov</span></div>
+        <div class="timeline-content">
+          <h3>Blockchain Security Intern</h3>
+          <p class="timeline-org">SISA Infosec</p>
+          <p>Developed a framework for researching emerging trends in
+            stablecoin integration within the payment industry.
+            Conducted in-depth analysis of blockchain attack vectors to
+            identify potential security risks.</p>
+        </div>
+      </article>
+
+      <article class="timeline-item">
+        <div class="timeline-year">—<span class="year-suffix">Ongoing</span></div>
+        <div class="timeline-content">
+          <h3>Blockchain Security Researcher</h3>
+          <p class="timeline-org">Independent</p>
+          <p>Specialized in identifying vulnerabilities in DeFi
+            protocols through security contests and bug bounty
+            programs. Participated in audits and peer review of
+            blockchain applications, publishing findings on GitHub.</p>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <section class="block" id="work">
+    <div class="block-head">
+      <span class="block-label">Selected projects</span>
+    </div>
+    <div class="worklist">
+
+      <a href="#" class="workrow">
+        <div class="workrow-main">
+          <h3>EasyHop — Solana</h3>
+          <p>A hopper-style lending vault aggregator enabling one-click
+            withdraw-to-deposit migration across Kamino Lend vaults.
+            Full-stack monorepo: Express.js API with protocol adapters,
+            React (Vite) frontend, and Jupiter Swap integration for
+            cross-asset moves.</p>
+        </div>
+        <div class="workrow-meta">
+          <span>Solana / DeFi</span>
+        </div>
+      </a>
+
+      <a href="#" class="workrow">
+        <div class="workrow-main">
+          <h3>Cross-Chain Token Transfer</h3>
+          <p>A cross-chain transfer solution using LayerZero's
+            Omnichain Fungible Token standard to bridge tokens across
+            EVM chains, with a mint-and-burn mechanism preserving a
+            consistent global supply.</p>
+        </div>
+        <div class="workrow-meta">
+          <span>LayerZero / EVM</span>
+        </div>
+      </a>
+
+      <a href="#" class="workrow">
+        <div class="workrow-main">
+          <h3>Decentralized Tender Management System</h3>
+          <p>A secure, blockchain-based bidding system for tamper-proof
+            tenders. Solidity smart contracts enforce transparency and
+            prevent bid manipulation.</p>
+        </div>
+        <div class="workrow-meta">
+          <span>Solidity</span>
+        </div>
+      </a>
+
+      <a href="#" class="workrow">
+        <div class="workrow-main">
+          <h3>NFT Marketplace</h3>
+          <p>A decentralized marketplace for minting, listing, buying,
+            and selling NFTs, with on-chain listing management,
+            ownership transfer, and payment flow.</p>
+        </div>
+        <div class="workrow-meta">
+          <span>Solidity</span>
+        </div>
+      </a>
+
+      <a href="#" class="workrow">
+        <div class="workrow-main">
+          <h3>X402 Payments Integration</h3>
+          <p>An implementation around the x402 internet payment
+            protocol handling payment-required HTTP flows, with
+            request/response handling and payment payload verification
+            for crypto-native pay-per-request APIs.</p>
+        </div>
+        <div class="workrow-meta">
+          <span>Protocol / API</span>
+        </div>
+      </a>
+
+    </div>
+  </section>
+
+  <section class="block" id="skills">
+    <div class="block-head">
+      <span class="block-label">Skills</span>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-group">
+        <h4>Programming</h4>
+        <p>Solidity, Rust, TypeScript, Web3.js, ethers.js, React</p>
+      </div>
+      <div class="skill-group">
+        <h4>Blockchain dev</h4>
+        <p>Hardhat, Foundry, OpenZeppelin</p>
+      </div>
+      <div class="skill-group">
+        <h4>Security auditing</h4>
+        <p>Formal verification, fuzz testing, gas optimization</p>
+      </div>
+    </div>
+    <div class="block-body" style="margin-top: 40px;">
+      <p><strong style="color: var(--ink); font-weight: 600;">Certifications:</strong>
+        Advanced Solidity — Yul &amp; Assembly · Advanced Solidity —
+        Understanding &amp; Optimizing Gas Costs · ZK and Scaling Bootcamp</p>
+    </div>
+  </section>
+
+  <section class="block contact-block" id="contact">
+    <div class="block-head">
+      <span class="block-label">Contact</span>
+    </div>
+    <div class="block-body">
+      <p class="contact-lead">Open to blockchain development roles,
+        security audits, and bug bounty collaborations. The fastest
+        way to reach me is email.</p>
+      <div class="contact-links">
+        <a href="mailto:aniruthsp@gmail.com" class="contact-link">aniruthsp@gmail.com →</a>
+        <a href="#" class="contact-link">LinkedIn →</a>
+        <a href="#" class="contact-link">GitHub →</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <p>Anirruth Santhosh — Built with care, 2026.</p>
+  </footer>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
